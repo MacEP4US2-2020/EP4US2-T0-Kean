@@ -30,3 +30,5 @@ def game_round():
     player = user_turn()
     computer = computer_turn()
     who_wins(player, computer)
+
+game_round()
